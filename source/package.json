@@ -1,0 +1,21 @@
+{
+  "name": "api-generator",
+  "version": "1.0.0",
+  "description": "Servidor Node/Express/Mongoose generado con api-generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "mongoose": "^7.5.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

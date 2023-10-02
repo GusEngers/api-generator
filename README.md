@@ -27,6 +27,7 @@ Las dependecias y versiones que utilizará el proyecto generado son:
 
 - Este script está desarrollado para PowerShell así que no funcionará con CMD.
 - Para usarlo correctamente debe añadir este directorio a las variables de entorno y así poder ejecutar el script en los lugares donde desee generar un nuevo proyecto.
+- Una vez añadido a las variables de entorno, sólo debe ejecutar el comando `api` en el directorio donde se alojará el proyecto.
 
 ---
 

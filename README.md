@@ -7,7 +7,7 @@ Todos los directorios generados contarán con un archivo `README` que mostrará 
 La aplicación generada necesitará de dos variables de entorno para funcionar:
 
 ```javascript
-DB_URI; // URI de la base de datos (es obligatorio, pero en caso de no utilizar una base de datos sólo debe comentar la línea 8 de index.js)
+DB_URI; // URI de la base de datos (es obligatorio, pero en caso de no utilizar una base de datos sólo debe comentar la línea 2 y 8 de index.js)
 PORT; // Número del puerto en el que se ejecutará la aplicación, en caso de no proporcionar utilizará 3000 por defecto
 ```
 
@@ -28,7 +28,6 @@ Las dependecias y versiones que utilizará el proyecto generado son:
 - Este script está desarrollado para PowerShell así que no funcionará con CMD.
 - Para usarlo correctamente debe añadir este directorio a las variables de entorno y así poder ejecutar el script en los lugares donde desee generar un nuevo proyecto.
 - Una vez añadido a las variables de entorno, sólo debe ejecutar el comando `api` en el directorio donde se alojará el proyecto.
-
 ---
 
 _Próximas Implementaciones_

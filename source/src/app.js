@@ -2,7 +2,8 @@ const express = require('express');
 const path = require('path');
 
 // Rutas importadas
-const routes = require('./api/routes');
+const client = require('./client/routes');
+const api = require('./api/routes');
 
 // Utilidades importadas
 const handleCors = require('./utils/handle-cors');
@@ -22,7 +23,8 @@ app.use(handleCors);
 app.use(require('morgan')('dev'));
 
 // Rutas
-app.use('/', routes);
+app.use('/', client);
+app.use('/api', api);
 
 // Manejo de rutas especiales
 app.use(handleError);

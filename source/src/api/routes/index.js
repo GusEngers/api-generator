@@ -1,8 +1,7 @@
 const router = require('express').Router();
-const client = require('./client');
-const api = require('./api');
 
-app.use('/', client);
-app.use('/api', api);
+router.get('/', (req, res) => {
+  res.json({ msg: 'Estamos en las rutas de la api' });
+});
 
 module.exports = router;

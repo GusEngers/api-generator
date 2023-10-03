@@ -1,4 +1,5 @@
 Import-Module "$PSScriptRoot\functions\add-project.psm1"
+Import-Module "$PSScriptRoot\functions\install-dep.psm1"
 
 Write-Host @"
 
@@ -23,6 +24,7 @@ try {
   }
   else {
     AddProject $PSScriptRoot $NameProject
+    InstallDep $NameProject
   }
 }
 catch {

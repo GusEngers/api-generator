@@ -23,7 +23,7 @@ PORT; // Número del puerto en el que se ejecutará la aplicación, en caso de n
 
 Las dependecias y versiones que utilizará el proyecto generado son:
 
-```json
+```javascript
 "dependencies": {
   "dotenv": "^16.0.3", // Para utilizar archivos .env
   "express": "^4.18.2", // Framework principal para la puesta en marcha del servidor
